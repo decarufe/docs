@@ -9,7 +9,7 @@ nav-order: 1
 
 In this section you will find some of the most asked questions **developers** have. 
 
-# How to deal with configuration in your application?
+<detail><summary># How to deal with configuration in your application?</summary>
 
 App configuration management and its security is a core element in our software life cycle. It must be secure for sensitive information and should be centralized if configs are shared across multiple services.
 
@@ -45,7 +45,7 @@ Sample code: Nothing for now 😔Do you already have something for this or want 
 - https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#key-vault-limits
 - https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-app-configuration
 - https://docs.microsoft.com/en-us/azure/azure-app-configuration/enable-dynamic-configuration-aspnet-core?tabs=core5x#add-a-sentinel-key
-
+</detail>
 
 
 # How to survive a complete DR in a particular region?
