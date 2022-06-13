@@ -2,6 +2,7 @@
 layout: page
 title: Analytics
 nav-order: 6
+hide: true
 ---
 
 It can be useful to see what traffic you're getting on your site. You can use Google Analytics to do this.

@@ -2,6 +2,7 @@
 layout: page
 title: Website Tutorial
 nav-order: 1
+hide: true
 ---
 
 This page contains a tutorial to get you set up with a personal website using our [AstroSites template page](/template/). At the end of this tutorial you will:

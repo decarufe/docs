@@ -2,6 +2,7 @@
 layout: page
 title: Custom Domain Names
 nav-order: 4
+hide: true
 ---
 
 Using a custom domain name can be important for personal marketing and offers one greater freedom to in choosing their domain representation (GitHub Pages requires the domain name `<your_domain>.github.io`).

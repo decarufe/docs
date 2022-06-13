@@ -2,6 +2,7 @@
 layout: page
 title: Website Building Blocks
 nav-order: 2
+hide: true
 ---
 
 # HTML, CSS, and JavaScript

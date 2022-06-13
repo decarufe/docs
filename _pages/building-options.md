@@ -2,6 +2,7 @@
 layout: page
 title: Building Options
 nav-order: 5
+hide: true
 ---
 
 There are several different paths you can take when building a GitHub pages ready website, however there are three popular options as of right now.
