@@ -1,7 +1,7 @@
 ---
 layout: page
 title: F.A.Q.
-description: Everything want to know and more!
+description: Everything you want to know and more!
 nav-order: 1
 ---
 
