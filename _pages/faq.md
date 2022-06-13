@@ -1,23 +1,24 @@
 ---
 layout: page
 title: F.A.Q.
+description: Everything want to know and more!
 nav-order: 1
 ---
 
 # Frequently asked questions
 
-In this section you will find some of the most asked questions developers have. 
+In this section you will find some of the most asked questions **developers** have. 
 
 ## How to deal with configuration in your application?
 
 App configuration management and its security is a core element in our software life cycle. It must be secure for sensitive information and should be centralized if configs are shared across multiple services.
 
 Basic rules:
-- Everything considered sensitive or private must be stored in a secret vault, i.e., Azure Key Vault.
+- Everything considered sensitive or private must be stored in a **secret vault**, i.e., Azure Key Vault.
 - Use a different vault for each environment: development, pre-production, and production
 - Every secret must have an expiration date and it cannot be greater than 12 months
 - or compliance)
-- If you want more features around your configuration management, like notification on changes or some configs are shared across multiple services, use a service like Azure App Configuration
+- If you want more features around your configuration management, like notification on changes or some configs are **shared across multiple services**, use a service like Azure App Configuration
 - Key Vault and App Configuration are not real time databases and excessive requests could cause throttling. Leverage and tune caching or refresh timeouts, especially if your configuration values do not change frequently
 - Use managed identities to access Key Vault and App Configuration
 
