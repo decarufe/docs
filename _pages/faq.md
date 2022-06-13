@@ -9,11 +9,11 @@ nav-order: 1
 
 In this section you will find some of the most asked questions **developers** have. 
 
-## How to deal with configuration in your application?
+# How to deal with configuration in your application?
 
 App configuration management and its security is a core element in our software life cycle. It must be secure for sensitive information and should be centralized if configs are shared across multiple services.
 
-Basic rules:
+## Basic rules:
 - Everything considered sensitive or private must be stored in a **secret vault**, i.e., Azure Key Vault.
 - Use a different vault for each environment: development, pre-production, and production
 - Every secret must have an expiration date and it cannot be greater than 12 months
@@ -22,7 +22,7 @@ Basic rules:
 - Key Vault and App Configuration are not real time databases and excessive requests could cause throttling. Leverage and tune caching or refresh timeouts, especially if your configuration values do not change frequently
 - Use managed identities to access Key Vault and App Configuration
 
-Advanced:
+## Advanced:
 - Leverage the sentinel key pattern  instead of watching multiple configuration keys for changes
 - Consider Configuration as code in your software delivery lifecycle
 
@@ -38,7 +38,7 @@ The fewer the better but teams can leverage multiple levels of configurations wh
 
 Sample code: Nothing for now 😔Do you already have something for this or want to contribute ? Reach out to us 😃
 
-Recommended content
+## Recommended content
 - Centralized app configuration and security - Azure Solution Ideas | Microsoft Docs
 - Azure App Configuration best practices | Microsoft Docs
 - Azure App Configuration - Configuration as Code | Microsoft Docs
@@ -48,7 +48,7 @@ Recommended content
 
 
 
-## How to survive a complete DR in a particular region?
+# How to survive a complete DR in a particular region?
 
 There mainly 2 reasons to perform a complete DR, one feel better than the other:
 
