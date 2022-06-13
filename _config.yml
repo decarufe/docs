@@ -1,9 +1,5 @@
 # name of the software
-title: AstroSites
-
-# project:
-#     version: 0.1.0
-#     download_url: https://github.com/allejo/jekyll-docs-theme/releases
+title: GSoft Architecture Center
 
 license:
     software: MIT License
@@ -16,11 +12,11 @@ links:
     # header:
     #   - title: GitHub
     #     url: https://github.com/astrosites/astrosites.github.io
-    footer:
-      - title: GitHub
-        url: https://github.com/astrosites/astrosites.github.io
-      - title: Issues
-        url: https://github.com/astrosites/astrosites.github.io/issues?state=open
+    # footer:
+    #   - title: GitHub
+    #     url: https://github.com/astrosites/astrosites.github.io
+    #   - title: Issues
+    #     url: https://github.com/astrosites/astrosites.github.io/issues?state=open
 
 ui:
     header:
