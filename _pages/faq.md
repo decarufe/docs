@@ -9,6 +9,22 @@ nav-order: 1
 
 In this section you will find some of the most asked questions **developers** have. 
 
+## What framework or rendering library should I use?
+
+<details>
+  <summary>Answer</summary>
+  <br/>
+  
+  All applications must use React as a rendering library. Feel free to use any other **libraries or framework to enhance React capabilities**.
+
+  Our most popular bundle right now is Create React App + React Router but we are actively exploring Next.js so you should consider it.
+ 
+  * Allo
+  * Eric
+  * De Careful 
+  
+</details>
+
 # How to deal with configuration in your application?
 
 App configuration management and its security is a core element in our software life cycle. It must be secure for sensitive information and should be centralized if configs are shared across multiple services.
